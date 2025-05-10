@@ -11,25 +11,22 @@ This repository provides an unofficial Python installer specifically for Windows
 ## Installation Guide
 
 1. **Download the Latest Release**
-   Go to the [releases page](https://github.com/) and download the latest `.zip` file of the application.
+   Go to the [releases page]([https://github.com/your-username/your-repository/releases](https://github.com/uift-688/InstancePython/releases)) and download the latest `main.exe` file.
 
-2. **Extract the ZIP Archive**
-   Extract the contents of the ZIP file to your desired installation directory. For example, you might choose `C:\my-python-installer`.
+2. **Run the Installer**
+   Execute the downloaded `main.exe` to begin the installation process. You can place `main.exe` in any directory where you'd like to install Python.
 
-3. **Run the Installer**
-   Inside the extracted directory, execute the installer (typically `installer.py` or similar) to begin the installation process.
+3. **Select Installation Directory**
+   During the installation, you will be prompted to select the installation directory. For example, you might choose `C:\my-python-installer`.
 
-   ```bash
-   python installer.py
-   ```
+4. **Complete the Installation**
+   The installer will install Python to the selected directory, typically under a folder like `C:\my-python-installer\python`.
 
-   This will install Python to the `installation_directory/python` folder.
-
-4. **Verify Installation**
+5. **Verify Installation**
    After installation is complete, verify that Python is installed correctly by opening a command prompt and running the following command:
 
    ```bash
-   installation_directory\python\python --version
+   C:\my-python-installer\python\python --version
    ```
 
    If Python is installed successfully, you should see the Python version displayed.
